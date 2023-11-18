@@ -1,0 +1,100 @@
+.youtube-modal {
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+}
+
+.modal-header {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.modal-search-input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.modal-search-input input {
+    flex-grow: 1;
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.modal-search-input button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.modal-search-input button:hover {
+    background-color: #0056b3;
+}
+
+.modal-search-results {
+    margin-bottom: 20px;
+}
+
+.search-result-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.search-result-item img {
+    margin-right: 10px;
+    width: 80px;
+    height: 45px;
+    object-fit: cover;
+}
+
+.video-title {
+    font-weight: bold;
+}
+
+.modal-playing {
+    margin-bottom: 20px;
+}
+
+.modal-playlist {
+    list-style: none;
+    padding: 0;
+}
+
+.playlist-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.playlist-item img {
+    margin-right: 10px;
+    width: 80px;
+    height: 45px;
+    object-fit: cover;
+}
+
+.playlist-item button {
+    margin-left: auto;
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.playlist-item button:hover {
+    background-color: #c82333;
+}
